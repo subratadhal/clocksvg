@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <title>clockSVG</title>
 <meta name="author" content="Subrata Dhal">
-<meta name="desription" content="SVG path animation tutorial of camera.">
+<meta name="desription" content="SVG path animation tutorial of clock.">
 <meta name="keyword" content="svg,svg path,svg animation,svg animation,svg path animation">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="http://subratadhal.com/svg/clocksvg/" />
@@ -102,28 +102,6 @@
             Designed and Developed by: <a target="_blank" href="http://www.subratadhal.com">subratadhal.com</a>
         </div>
     </footer>
-    <script src="js/vivus.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-                    setTimeout(function(){
-                            for(var i=1; i<200; i++){
-                                $('.ld'+i).addClass('ld'+i+'-ext')
-                            }
-                    }, 1300);
-                    var sd = new Vivus('subrata', {
-                            type: 'scenario-sync',
-                            duration: 20,
-                            start: 'autostart',
-                            dashGap:20,
-                            pathTimingFunction: Vivus.LINEAR,
-                            animTimingFunction: Vivus.LINEAR,
-                    forceRender: false},
-                    function () {
-                            if (window.console) {
-                                    console.log('Animation finished. [log triggered from callback]');
-                            }
-                    });
-    </script>
-
+    
 </body>
 </html>

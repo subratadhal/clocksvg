@@ -1,0 +1,54 @@
+
+
+.number{
+	font-family: 'Arvo', serif;
+	font-size:40px;
+	stroke:#ccc;
+	stroke-width:1;
+	fill:#ccc;
+}
+.number-small{
+	font-family: 'Arvo', serif;
+	font-size:30px;
+	stroke:#999;
+	stroke-width:1;
+	fill:#999;
+}
+.lines{
+	stroke-width:1;
+	stroke:0; 
+	fill:#777;
+}
+.lines2{
+	stroke-width:0;
+	stroke:0; 
+	fill:#444;
+}
+.dial{
+	stroke:#666; 
+	fill:#fff;
+}
+.dial2{
+	stroke:#888; 
+	fill:#bbb;
+}
+.center1{
+	stroke:#777; 
+	stroke-width:25; 
+	stroke-dasharray:1,78; 
+	fill:#444;
+}
+.second{
+	stroke-width:1; 
+	stroke:#fff;
+}
+.minute{
+	stroke-width:2.5; 
+	stroke:#fff;
+}
+.hour{
+	stroke-width:4; 
+	stroke:#fff;
+}
+
+
